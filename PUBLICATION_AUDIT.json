@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-11-07T17:46:30.617061+00:00",
+  "status": "SOURCE_ONLY_SYNTAX_REPAIRED_NOT_EXECUTION_VERIFIED",
+  "python_version_used_for_static_check": "3.9.6",
+  "python_files": 37,
+  "ast_parse_passed": 37,
+  "in_memory_compile_passed": 37,
+  "parse_failures": [],
+  "unresolved_local_import_paths": [],
+  "source_configuration_files": 38,
+  "unchanged_source_files": 36,
+  "edited_source_files": {
+    "scripts/experiments/search_stgcn_lite_017n_category_router_round20.py": "Restored two docstring delimiters; no executable statement or experimental formula edited.",
+    "scripts/experiments/run_stgcn_lite_seven_station.py": "Replaced personal Windows root with Path(__file__).resolve().parents[2]; portable layout repair."
+  },
+  "secret_and_personal_path_pattern_scan": "No matches in public copy; pattern scan is not a guarantee",
+  "data_included": false,
+  "project_imports_executed": false,
+  "compiled_code_executed": false,
+  "dependencies_installed": false,
+  "tests_executed": false,
+  "experiments_executed": false,
+  "metrics_recomputed": false
+}

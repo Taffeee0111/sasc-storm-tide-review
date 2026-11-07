@@ -1,0 +1,180 @@
+{
+  "created_utc": "2026-11-07T15:29:53.051337+00:00",
+  "status": "SOURCE_ONLY_REVIEW_CANDIDATE_NOT_RUN_NOT_SUBMITTED",
+  "source_file_count": 38,
+  "python_file_count": 37,
+  "copied_source_bytes": 371554,
+  "all_copies_sha256_verified": true,
+  "static_parse_results": [
+    {
+      "file": "scripts/__init__.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "scripts/experiments/__init__.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "scripts/experiments/evaluate_seven_station.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "scripts/experiments/evaluate_seven_station_shrinkage.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "scripts/experiments/run_seven_station_predict.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "scripts/experiments/run_seven_station_shrinkage.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "scripts/experiments/run_stgcn_lite_seven_station.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "scripts/experiments/search_stgcn_lite_017n_category_router_round20.py",
+      "static_parse": "FAIL",
+      "type": "IndentationError",
+      "line": 96,
+      "message": "unexpected indent"
+    },
+    {
+      "file": "src/experiments/__init__.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/closed_book_seal.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/exhaustive_contract.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/exhaustive_evaluation.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/exhaustive_runner.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/expanded_coastal_similarity_contract.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/handcrafted_expanded_similarity_runner.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/handcrafted_seed_averaged_ntr_runner.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/handcrafted_seed_averaged_runner.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/minimal_contract.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/minimal_dataset.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/minimal_evaluation.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/minimal_methods.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/minimal_runner.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/residual_forecasting.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/seven_station_contract.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/seven_station_learned_similarity_contract.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/seven_station_runner.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/seven_station_shrinkage_runner.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/shrinkage_evaluation.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/shrinkage_runner.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/experiments/source_only_calibration.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/metrics.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/models/__init__.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/models/bilstm_attention.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/models/stgcn_lite.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/preexperiment/__init__.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/preexperiment/similarity.py",
+      "static_parse": "PASS"
+    },
+    {
+      "file": "src/target_blind_router.py",
+      "static_parse": "PASS"
+    }
+  ],
+  "unresolved_local_imports_in_parsable_files": [],
+  "import_check_excludes_unparsable_entry": true,
+  "third_party_import_roots": [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "sklearn",
+    "torch",
+    "yaml"
+  ],
+  "original_absolute_path_files": [
+    "scripts/experiments/run_stgcn_lite_seven_station.py"
+  ],
+  "project_imports_executed": false,
+  "tests_executed": false,
+  "experiments_executed": false,
+  "original_files_modified": false,
+  "original_files_deleted": false
+}

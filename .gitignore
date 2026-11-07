@@ -1,0 +1,18 @@
+# Private, unverified or generated material is not part of this release
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+data/
+results/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+logs/
+*.log

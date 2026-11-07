@@ -1,0 +1,9 @@
+# Static import inventory only. Not installed or version-verified.
+# Python version for actual experiment: author confirmation required.
+matplotlib
+numpy
+pandas
+PyYAML
+scikit-learn
+scipy
+torch
